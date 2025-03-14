@@ -1,6 +1,6 @@
 # Faris Aleem Ahmad - 33570
 
-## DSA210 Spring25 Term Project Proposal - League of Legends Professional Player's Performance Analysis
+## DSA210 2025-Spring // Term Project Proposal - League of Legends Professional Player's Performance Analysis
 
 ### Motivation
 Professional e-sports players in League Of Legends (LOL) often have varying performances from one tournament season to the next. This project aims to understand how their performance and playstyle in their practice/casual matches during the offseason correlates to their ability to perform in the major tournaments and leagues.
