@@ -63,6 +63,7 @@ These results support the idea that players adjust their strategy based on match
 |-------------|-------------|
 | `main_notebook.ipynb` | Full notebook with all analysis, EDA, and hypothesis testing |
 | `data/` | Folder containing 14 CSV files for each player and match type |
+| `riotAPI_sample.py` | Python file showcasing how the API can be utilised to retrieve player data (non-functional due to outdated key |
 
 ---
 
@@ -70,4 +71,5 @@ These results support the idea that players adjust their strategy based on match
 
 This project was completed as part of the Data Science course (DSA210) in Spring 2025.  
 All data used was publicly available and used for academic purposes only.
-The sample code for the API usage is uploaded seperately. It is purely for grading/showcase purposes and will not function as Riot Games refreshes their API key every 24 hours.
+The sample code for the API usage is uploaded seperately. 
+It is purely for grading/showcase purposes and will not function as Riot Games refreshes their API key every 24 hours.
