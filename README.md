@@ -78,11 +78,11 @@ It is purely for grading/showcase purposes and will not function as Riot Games r
 
 
 ## Data Scraping Sources
-op.gg -- offseason
+[OP.GG](https://op.gg) -- offseason
 
-trackingthepros - offseason
+[Trackingthepros](https://trackingthepros.com) -- offseason
 
-lol.fandom -- tournament
+[LoL Fandom Wiki](https://lol.fandom.com/wiki) -- tournament
 
 Faker 
 - https://op.gg/lol/summoners/kr/Hide%20on%20bush-KR1 
