@@ -76,6 +76,7 @@ All data used was publicly available and used for academic purposes only.
 
 The sample code for the API usage is uploaded seperately. 
 It is purely for grading/showcase purposes and will not function as Riot Games refreshes their API key every 24 hours.
+This will result in an error 403.
 
 
 ## Data Scraping Sources
