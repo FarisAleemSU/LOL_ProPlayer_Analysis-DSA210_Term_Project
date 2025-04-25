@@ -73,3 +73,35 @@ This project was completed as part of the Data Science course (DSA210) in Spring
 All data used was publicly available and used for academic purposes only.
 The sample code for the API usage is uploaded seperately. 
 It is purely for grading/showcase purposes and will not function as Riot Games refreshes their API key every 24 hours.
+
+
+## Data Scraping Sources
+op.gg -- offseason
+lol.fandom -- tournament
+Faker 
+- https://op.gg/lol/summoners/kr/Hide%20on%20bush-KR1 
+- https://lol.fandom.com/wiki/Faker/Match_History  
+
+Chovy
+- https://op.gg/lol/summoners/kr/%ED%97%88%EA%B1%B0%EB%8D%A9-0303
+- https://lol.fandom.com/wiki/Chovy/Match_History
+
+Ruler 
+- https://op.gg/lol/summoners/kr/%EA%B7%80%EC%B0%AE%EA%B2%8C%ED%95%98%EC%A7%80%EB%A7%88-KR3
+- https://lol.fandom.com/wiki/Ruler/Match_History
+
+Caps
+- https://op.gg/lol/summoners/euw/G2%20Caps-1323
+- https://lol.fandom.com/wiki/Caps/Match_History
+
+BlaberFish
+- https://op.gg/lol/summoners/na/blaberfish2-NA1
+- https://lol.fandom.com/wiki/Blaber/Match_History
+
+Zeus 
+- https://trackingthepros.com/player/Zeus
+- https://lol.fandom.com/wiki/Zeus/Match_History
+
+Hans Sama
+- https://op.gg/lol/summoners/euw/G2%20Hans%20Sama-12838
+- https://lol.fandom.com/wiki/Hans_Sama/Match_History
