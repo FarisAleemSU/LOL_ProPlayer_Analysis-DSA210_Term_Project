@@ -1,12 +1,73 @@
-# Faris Aleem Ahmad - 33570
+# League of Legends Pro Player Performance Analysis
 
-## DSA210 2025-Spring // Term Project Proposal - League of Legends Professional Player's Performance Analysis
+**Faris Aleem Ahmad – 33570**  
+**DSA210 – Spring 2025 – Term Project**
 
-### Motivation
-Professional e-sports players in League Of Legends (LOL) often have varying performances from one tournament season to the next. This project aims to understand how their performance and playstyle in their practice/casual matches during the offseason correlates to their ability to perform in the major tournaments and leagues.
+---
 
-### Data / Data Collection Methods
-- The main source of data will be acquired through official Riot Games APIs, as well as their enumeration of professional tournament matches on [League of Legends Esports Wiki](https://lol.fandom.com/wiki/League_of_Legends_Esports_Wiki).
-- To supplement this data, third-party sites like OP.GG and U.GG will be used to track pro players' off-season games and provide pre-built performance indicators, that will provide support to our method of performance analysis.
-- These datasets will be merged to establish a comprehensive comparison of tournament vs. off-season performance. The data will then be cleaned and pre-processed to allow for smoother analysis.
-- To allow for the analysis of external factors on the performance of these players, we'll utilise the meta changes, patch notes, and balance changes recorded by riot games with each patch.
+## Project Summary
+
+This project analyzes the performance of seven professional League of Legends players across two match types: **off-season solo queue games** and **official tournament matches**. The goal is to evaluate whether there are **statistically significant differences** in player behavior and performance based on the match environment.
+
+---
+
+## Key Metrics Analyzed
+
+- **KDA** (Kill/Death/Assist ratio)  
+- **CS per Minute** (Creep Score)  
+- **Gold per Minute**  
+- **Damage per Minute**  
+- **Deaths**  
+- **Custom Performance Score** (combined weighted metric)
+
+---
+
+## Dataset
+
+- 14 CSV files (7 players × 2 match types: Offseason & Tournament)
+- 10 matches per player per type (total = 140 matches)
+- Data sources:
+  - [OP.GG](https://op.gg) – Off-season match histories
+  - [LoL Fandom Wiki](https://lol.fandom.com/wiki) – Tournament stats
+  - Riot Developer API – Match verification & player activity
+
+---
+
+## Methodology
+
+1. Collected and cleaned raw match data for each player
+2. Enriched each record with:
+   - KDA, CS/min, Gold/min, Damage/min, Win
+   - Custom performance score
+3. Performed **Exploratory Data Analysis (EDA)**
+4. Conducted **3 statistical hypothesis tests**:
+   - Difference in overall performance score
+   - Difference in deaths per match
+   - Difference in CS per minute
+
+---
+
+## Results
+
+- **Performance Score:** Significantly higher in off-season  
+- **Deaths:** Significantly lower in tournament matches  
+- **CS/min:** Significantly higher in tournament matches  
+
+These results support the idea that players adjust their strategy based on match environment — playing safer and farming more efficiently in tournaments.
+
+---
+
+## Files in This Repository
+
+| File/Folder | Description |
+|-------------|-------------|
+| `main_notebook.ipynb` | Full notebook with all analysis, EDA, and hypothesis testing |
+| `data/` | Folder containing 14 CSV files for each player and match type |
+| `final_report.pdf` *(optional)* | Summary of methods, visualizations, and conclusions |
+
+---
+
+## Notes
+
+This project was completed as part of the Data Science course (DSA210) in Spring 2025.  
+All data used was publicly available and used for academic purposes only.
