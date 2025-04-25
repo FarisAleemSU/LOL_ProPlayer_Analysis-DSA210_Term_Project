@@ -79,6 +79,7 @@ It is purely for grading/showcase purposes and will not function as Riot Games r
 op.gg -- offseason
 
 lol.fandom -- tournament
+
 Faker 
 - https://op.gg/lol/summoners/kr/Hide%20on%20bush-KR1 
 - https://lol.fandom.com/wiki/Faker/Match_History  
