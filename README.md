@@ -63,7 +63,6 @@ These results support the idea that players adjust their strategy based on match
 |-------------|-------------|
 | `main_notebook.ipynb` | Full notebook with all analysis, EDA, and hypothesis testing |
 | `data/` | Folder containing 14 CSV files for each player and match type |
-| `final_report.pdf` *(optional)* | Summary of methods, visualizations, and conclusions |
 
 ---
 
