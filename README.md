@@ -30,6 +30,7 @@ This project analyzes the performance of seven professional League of Legends pl
   - [OP.GG](https://op.gg) and [Trackingthepros](https://trackingthepros.com) – Off-season match histories
   - [LoL Fandom Wiki](https://lol.fandom.com/wiki) – Tournament stats
   - Riot Developer API – Match verification & player activity
+
 **NOTE** : Tournament matches are played in a series of 3/5. Only the first match of each series was considered for this project to avoid skill-based factors having a prominent, repeated effect.
 
 ---
