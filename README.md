@@ -37,15 +37,15 @@ This project analyzes the performance of seven professional League of Legends pl
 
 ## Methodology
 
-1. Collected and cleaned raw match data for each player
-2. Enriched each record with:
-   - KDA, CS/min, Gold/min, Damage/min, Win
-   - Custom performance score
-3. Performed **Exploratory Data Analysis (EDA)**
-4. Conducted **3 statistical hypothesis tests**:
-   - Difference in overall performance score
-   - Difference in deaths per match
-   - Difference in CS per minute
+1. Collected and cleaned raw match data for each player  
+2. Enriched each record with:  
+   - KDA, CS/min, Gold/min, Damage/min, Win  
+   - Custom performance score  
+3. Performed **Exploratory Data Analysis (EDA)**  
+4. Conducted **3 statistical hypothesis tests**:  
+   - Difference in overall performance score  
+   - Difference in deaths per match  
+   - Difference in CS per minute  
 
 ---
 
@@ -59,13 +59,32 @@ These results support the idea that players adjust their strategy based on match
 
 ---
 
+## Machine Learning Applications
+
+### 1. Predicting Win/Loss from Performance Stats  
+- Applied **Logistic Regression** and **Random Forest** classifiers  
+- Models trained using KDA, CS/min, Damage/min, and other metrics  
+- Both models achieved an accuracy of **~85.7%**  
+- Top predictors: KDA, Gold/min, and Deaths  
+- Result: In-game stats reliably predict whether a match ends in a win or loss
+
+### 2. Classifying Match Type (Tournament vs Offseason)  
+- Second ML task trained on same features  
+- Logistic Regression reached **92.9%** accuracy with strong recall for tournament games  
+- Random Forest achieved **100% accuracy** on the test set (slightly lower cross-validation)  
+- Top features: CS, Deaths, and Damage/min  
+- Result: Pro players adapt playstyle measurably based on match context
+
+---
+
 ## Files in This Repository
 
 | File/Folder | Description |
 |-------------|-------------|
-| `main_notebook.ipynb` | Full notebook with all analysis, EDA, and hypothesis testing |
+| `main_notebook.ipynb` | Full notebook with all analysis, EDA, hypothesis testing, and ML tasks |
 | `data/` | Folder containing 14 CSV files for each player and match type |
-| `riotAPI_sample.py` | Python file showcasing how the API can be utilised to retrieve player data (non-functional due to outdated key |
+| `riotAPI_sample.py` | Python file showcasing how the API can be utilised to retrieve player data (non-functional due to outdated key) |
+| `requirements.txt` | Python dependencies for notebook execution |
 
 ---
 
@@ -74,42 +93,44 @@ These results support the idea that players adjust their strategy based on match
 This project was completed as part of the Data Science course (DSA210) in Spring 2025.  
 All data used was publicly available and used for academic purposes only.
 
-The sample code for the API usage is uploaded seperately. 
-It is purely for grading/showcase purposes and will not function as Riot Games refreshes their API key every 24 hours.
+The sample code for the API usage is uploaded separately.  
+It is purely for grading/showcase purposes and will not function as Riot Games refreshes their API key every 24 hours.  
 This will result in an error 403.
 
+Some summaries and sections were supported with the help of AI tools (ChatGPT) in compliance with the academic integrity guidelines of the course.
+
+---
 
 ## Data Scraping Sources
-[OP.GG](https://op.gg) -- offseason
 
-[Trackingthepros](https://trackingthepros.com) -- offseason
+[OP.GG](https://op.gg) -- offseason  
+[Trackingthepros](https://trackingthepros.com) -- offseason  
+[LoL Fandom Wiki](https://lol.fandom.com/wiki) -- tournament  
 
-[LoL Fandom Wiki](https://lol.fandom.com/wiki) -- tournament
-
-Faker 
-- https://op.gg/lol/summoners/kr/Hide%20on%20bush-KR1 
+**Faker**  
+- https://op.gg/lol/summoners/kr/Hide%20on%20bush-KR1  
 - https://lol.fandom.com/wiki/Faker/Match_History  
 
-Chovy
-- https://op.gg/lol/summoners/kr/%ED%97%88%EA%B1%B0%EB%8D%A9-0303
-- https://lol.fandom.com/wiki/Chovy/Match_History
+**Chovy**  
+- https://op.gg/lol/summoners/kr/%ED%97%88%EA%B1%B0%EB%8D%A9-0303  
+- https://lol.fandom.com/wiki/Chovy/Match_History  
 
-Ruler 
-- https://op.gg/lol/summoners/kr/%EA%B7%80%EC%B0%AE%EA%B2%8C%ED%95%98%EC%A7%80%EB%A7%88-KR3
-- https://lol.fandom.com/wiki/Ruler/Match_History
+**Ruler**  
+- https://op.gg/lol/summoners/kr/%EA%B7%80%EC%B0%AE%EA%B2%8C%ED%95%98%EC%A7%80%EB%A7%88-KR3  
+- https://lol.fandom.com/wiki/Ruler/Match_History  
 
-Caps
-- https://op.gg/lol/summoners/euw/G2%20Caps-1323
-- https://lol.fandom.com/wiki/Caps/Match_History
+**Caps**  
+- https://op.gg/lol/summoners/euw/G2%20Caps-1323  
+- https://lol.fandom.com/wiki/Caps/Match_History  
 
-BlaberFish
-- https://op.gg/lol/summoners/na/blaberfish2-NA1
-- https://lol.fandom.com/wiki/Blaber/Match_History
+**BlaberFish**  
+- https://op.gg/lol/summoners/na/blaberfish2-NA1  
+- https://lol.fandom.com/wiki/Blaber/Match_History  
 
-Zeus 
-- https://trackingthepros.com/player/Zeus
-- https://lol.fandom.com/wiki/Zeus/Match_History
+**Zeus**  
+- https://trackingthepros.com/player/Zeus  
+- https://lol.fandom.com/wiki/Zeus/Match_History  
 
-Hans Sama
-- https://op.gg/lol/summoners/euw/G2%20Hans%20Sama-12838
-- https://lol.fandom.com/wiki/Hans_Sama/Match_History
+**Hans Sama**  
+- https://op.gg/lol/summoners/euw/G2%20Hans%20Sama-12838  
+- https://lol.fandom.com/wiki/Hans_Sama/Match_History  
