@@ -85,6 +85,8 @@ These results support the idea that players adjust their strategy based on match
 | `data/` | Folder containing 14 CSV files for each player and match type |
 | `riotAPI_sample.py` | Python file showcasing how the API can be utilised to retrieve player data (non-functional due to outdated key) |
 | `requirements.txt` | Python dependencies for notebook execution |
+| `final_report.pdf` | Final report for the whole project |
+| `README.md` | ReadMe file |
 
 ---
 
